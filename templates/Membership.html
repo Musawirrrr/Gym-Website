@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <nav>
+        <!-- Left box for logo -->
+        <div class="left">
+            Karachi GYM
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+          <ul class="navbar">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><button class="btn">Join Us Now</button></li>
+        </ul>
+        </div>
+        </nav>
+    </header>
+
+    <!-- Membership Section -->
+  <section class="membership-section">
+    <h2>Our Membership Plans</h2>
+    <p>Choose a plan that best suits your fitness goals and enjoy access to our top-notch facilities, professional trainers, and supportive community.</p>
+
+    <div class="plans">
+      <!-- Basic Plan -->
+      <div class="plan">
+        <h3>Basic Plan</h3>
+        <p>Access to gym facilities during off-peak hours.</p>
+        <p><strong>Price:</strong> 20,000 per month</p>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="plan">
+        <h3>Premium Plan</h3>
+        <p>Unlimited access to gym facilities, group classes, and 1 free personal training session per month.</p>
+        <p><strong>Price:</strong> 40,000 per month</p>
+      </div>
+
+      <!-- VIP Plan -->
+      <div class="plan">
+        <h3>VIP Plan</h3>
+        <p>All benefits of the Premium Plan plus unlimited personal training and spa access.</p>
+        <p><strong>Price:</strong> 60,000 per month</p>
+      </div>
+    </div>
+    </section>
+    
+  
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <nav>
+        <!-- Left box for logo -->
+        <div class="left">
+            Karachi GYM
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+          <ul class="navbar">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><button class="btn">Join Us Now</button></li>
+        </ul>
+        </div>
+        </nav>
+    </header>
+
+    <!-- About Us Section -->
+  <section class="about-section">
+    <h2>About Karachi GYM</h2>
+    <p>Welcome to Karachi GYM! Our mission is to provide a supportive and motivating environment for everyone seeking to improve their fitness. We are dedicated to helping you reach your goals with top-quality facilities and experienced trainers who care about your progress.</p>
+
+    <h3>Our Values</h3>
+    <ul class="values-list">
+      <li>Commitment to Health and Wellness</li>
+      <li>Inclusive Community</li>
+      <li>Excellence in Training and Equipment</li>
+    </ul>
+
+    <h3>Meet Our Team</h3>
+    <p>Our team of professional trainers is here to guide you on your fitness journey, providing personalized plans and constant support to help you stay motivated and achieve your goals.</p>
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,206 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ /* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url(GYMImage.jpg);
+    background-size: cover; /* Ensures image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps image fixed in place on scroll */
+    line-height: 1.6;
+  }
+  
+  
+  /* Header styling */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+.header .left {
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #ff9900; /* Simple, bold color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px; /* Slight letter spacing for readability */
+  }
+  
+  /* Hover effect */
+  .header .left:hover {
+    color: #e68a00; /* Darker shade on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  
+  
+  /* Navbar styling */
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+  }
+  
+  .navbar a.active,
+  .navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Join Us button */
+  .btn {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 5px;
+    transition:  0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Section styling */
+section {
+    display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Centers items vertically */
+    align-items: center; /* Centers items horizontally */
+    height: 100vh; /* Takes full viewport height */
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #e68a00;
+  }
+  
+  section p {
+    font-size: 1.2em;
+    max-width: 600px;
+    color: white;
+  }
+  /* General About Section Styling */
+.about-section {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-section h2 {
+  font-size: 2.2em;
+  color: #ff9900;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.1em;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-section h3 {
+  font-size: 1.5em;
+  color: #ff9900;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.values-list {
+  list-style-type: disc;
+  color: white;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.values-list li {
+  margin-bottom: 10px;
+}
+
+/* Membership Section Styling */
+.membership-section {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+position: absolute;
+top: 32.5%;
+left: 20%;
+
+}
+
+.membership-section h2 {
+  font-size: 2.2em;
+  color: #ff9900;
+  margin-bottom: 20px;
+}
+
+.membership-section p {
+  font-size: 1.1em;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.plan h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 1em;
+  color: #666;
+}
